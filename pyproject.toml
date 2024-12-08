@@ -1,0 +1,27 @@
+[project]
+name = "ecrypt-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "eratosthenes-sieve",
+    "numpy>=2.2.0",
+    "pre-commit>=4.0.1",
+]
+
+[tool.uv.sources]
+eratosthenes-sieve = { path = "eratosthenes_sieve", editable = true }
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+    "ruff>=0.8.2",
+]
+
+
+[tool.ruff]
+builtins = ["_"]
+target-version = "py312"
+line-length = 120
+

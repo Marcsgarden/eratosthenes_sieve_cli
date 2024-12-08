@@ -25,3 +25,35 @@ options:
   --iter_all_primes     Infinite loop to get as much primes as you need
 ```
 
+## Installation
+
+In order for the project to be installed you need to install the `uv` first:
+
+```bash
+pip install uv
+```
+
+After that, to build the virtual environment it should be as easy as:
+
+```bash
+uv sync
+```
+
+To run the code:
+
+```bash
+source ./.venv/bin/activate
+py main.py
+```
+
+## Testing
+
+NOTE: Assuming you installed the program correctly.
+
+To run the test:
+
+```bash
+source ./.venv/bin/activate
+pytest
+```
+

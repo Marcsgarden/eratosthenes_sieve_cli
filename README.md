@@ -1,4 +1,5 @@
-# Eratosthenes sieve
+# Eratosthenes sieve university Project
+
 
 Simple CLI that allows easy work evaluation of "is N a prime" or "what are first N primes" etc.
 
